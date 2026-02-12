@@ -151,12 +151,14 @@ section {
 
 /* RESPONSIVE */
 @media (max-width:600px) {
-    .hero h1 { font-size: 2rem; }
+    .hero h1 { font-size: 1.8rem; }
+    .song h2 { font-size: 1.8rem; }
 }
 
 footer{
 text-align: center; 
 color: white;
 }
+
 
 
