@@ -149,15 +149,15 @@ section {
     to { transform: translateY(-110vh); opacity: 0; }
 }
 
-/* RESPONSIVE */
-@media (max-width:600px) {
-    .hero h1 { font-size: 1.5rem; }
-    .song h2 { font-size: 1.5rem; }
-}
-
 footer{
 text-align: center; 
 color: white;
+}
+
+/* RESPONSIVE */
+@media (max-width:600px) {
+    .hero h1 { font-size: 2rem; }
+    .song h2 { font-size: 2rem; }
 }
 
 
