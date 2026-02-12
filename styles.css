@@ -156,8 +156,9 @@ color: white;
 
 /* RESPONSIVE */
 @media (max-width:600px) {
-    .hero h1 { font-size: 2.1rem; }
+    .hero h1 { font-size: 2rem; }
 }
+
 
 
 
