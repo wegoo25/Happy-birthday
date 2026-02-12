@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Happy Birthday My Love 🎂</title>
+
+    <link href="https://fonts.googleapis.com/css2?family=Instrument+Sans:ital,wght@0,400..700;1,400..700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+<!-- PIN LOCK SCREEN -->
+<div id="passwordScreen">
+    <div class="password-box">
+        <h2>Enter PIN 💌</h2>
+
+        <div id="pinDisplay">••••</div>
+
+        <div class="pin-pad">
+            <button onclick="press(1)">1</button>
+            <button onclick="press(2)">2</button>
+            <button onclick="press(3)">3</button>
+            <button onclick="press(4)">4</button>
+            <button onclick="press(5)">5</button>
+            <button onclick="press(6)">6</button>
+            <button onclick="press(7)">7</button>
+            <button onclick="press(8)">8</button>
+            <button onclick="press(9)">9</button>
+            <button class="clear" onclick="clearPin()">⌫</button>
+            <button onclick="press(0)">0</button>
+            <button class="enter" onclick="checkPassword()">♥</button>
+        </div>
+
+        <p id="error"></p>
+    </div>
+</div>
+
+<!-- FLOATING HEARTS -->
+<div class="hearts"></div>
+
+<!-- MAIN WEBSITE -->
+<div id="mainContent" style="display:none;">
+
+    <!-- HERO SECTION -->
+    <section class="hero">
+        <div class="hero-content">
+            <h1>Happy Birthday, My Love 💙</h1>
+            <p>You make my world brighter every single day</p>
+            <button onclick="scrollToLetter()">Open Your Letter 💌</button>
+        </div>
+    </section>
+
+    <!-- SONG SECTION -->
+    <section class="song">
+        <h2>A Song That Reminds Me of You 🎶</h2>
+        <div class="video-container">
+            <iframe 
+                src="https://www.youtube.com/embed/yXr4cAGslwI?si=SW5UOOWnToxxLzkz" 
+                title="YouTube video player" 
+                frameborder="0" 
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" 
+                referrerpolicy="strict-origin-when-cross-origin" 
+                allowfullscreen>
+            </iframe>
+        </div>
+    </section>
+
+    <!-- LOVE LETTER -->
+    <section class="letter" id="letter">
+        <div class="letter-box">
+            <h2>My Love Letter To You 💙</h2>
+            <p id="typedText"></p>
+        </div>
+    </section>
+
+    <footer>
+        <p>Happy birthday, silly.</p>
+    </footer>
+
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>
