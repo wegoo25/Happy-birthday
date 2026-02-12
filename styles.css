@@ -1,4 +1,3 @@
-
 body {
     margin: 0;
     font-family: 'Instrument Sans', sans-serif;
@@ -86,7 +85,7 @@ section {
 }
 
 .hero h1 {
-    font-family: 'Instrument Sans', cursive;
+    font-family: 'Instrument Sans', sans-serif;
     font-size: 3.5rem;
 }
 
@@ -106,7 +105,7 @@ section {
 }
 
 .song h2 {
-    font-family: 'Instrument Sans', cursive;
+    font-family: 'Instrument Sans', sans-serif;
     font-size: 2.5rem;
 }
 
@@ -159,4 +158,5 @@ footer{
 text-align: center; 
 color: white;
 }
+
 
